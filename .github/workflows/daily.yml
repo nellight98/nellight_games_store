@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Make daily commit
         run: |
-          echo "$(date) - daily activity" >> activity.log
+          echo "$(date) - daily activity" >> daily-update.txt
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
