@@ -15,8 +15,8 @@ jobs:
       - name: Make daily commit
         run: |
           echo "$(date) - daily activity" >> daily-update.txt
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "nellight98"
+          git config user.email "britov.arseniii@nttek.ru"
           git add .
           git commit -m "chore: daily activity update"
           git push
